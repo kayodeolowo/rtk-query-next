@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 
-import { postApi } from './services/fetchquerry';
+import { postApi } from '../app/services/fetchquerry';
 
 export const store = configureStore({
   reducer: {

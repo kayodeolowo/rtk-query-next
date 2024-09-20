@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import { useFetchPostQuery } from "@/redux/services/fetchquerry";
+import { useFetchPostQuery } from "../services/fetchquerry";
 import Link from "next/link";
 
 
